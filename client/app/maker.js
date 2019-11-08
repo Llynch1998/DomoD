@@ -45,6 +45,7 @@ const DomoList = function(props) {
         );
     }
 
+    
     const domoNodes = props.domos.map(function(domo){
         return(
             <div key={domo._id} className="domo">
