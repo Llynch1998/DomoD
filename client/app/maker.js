@@ -1,5 +1,3 @@
-import { Domo } from "../../server/models";
-import { set } from "mongoose";
 
 const handleDomo = (e) =>{
     e.preventDefault();
